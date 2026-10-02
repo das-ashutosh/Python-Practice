@@ -1,0 +1,5 @@
+sentence = input("Enter a sentence: ")
+word = input("Enter a word to search: ")
+words = sentence.lower().split()
+count = words.count(word.lower())
+print("The word appears", count, "time(s).")
